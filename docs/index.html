@@ -1,97 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
   <head>
+
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/myprofile.css" type="text/css"/>
-    <title>Currículo:Guilherme de M. Oliani</title>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/curri.css">
+
+
+    <title>Bem-vindo!!!</title>
+    </head>
   <body>
-    <main>
-    <h1>Guilherme de Matos Oliani </h1>
+    <header><!-- inicio da navega��o -->
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark text-white bg-dark">
+        <div class="container">
+          <button class="navbar-toggler" data-toggle="collapse" data-target=
+          "#nav-principal">
+           </button>
+          <div class="collapse navbar-collapse" id="nav-principal">
 
-      <h2><img src="img/eu.jpg" style=" height:500px;" >
-      </h2>
+          <ul class="navbar-nav ml-auto">
 
-   <div>
+              <li class="nav-item">
+                <a class="nav-link scroll-link" href="">Home</a>
+              </li>
+              <li class="nav-item divisor">
+              </li>
+              <li class="nav-item divisor">
+              </li>
+              <li class="nav-item">
+                <a href="#hab" class="nav-link scroll-link">Habilidades</a>
+              </li>
+              <li class="nav-item divisor">
 
-        <ul>
-           <li><a href="https://www.instagram.com/oliani.guilherme/?hl=pt-br"target="_blank">Instagram</a></li>
-           <li><a href="https://www.linkedin.com/in/guilherme-de-matos-oliani-b76688181/"target="_blank">Linkedin</a></li>
-           <li>contato:(48)991730504</li>
-           <li>EMAIL:guilhermeoliani5@gmail.com</li>
+              </li>
+              <li class="nav-item">
+                <a href="#sobre" class="nav-link scroll-link ">Sobre</a>
+              </li>
 
-        </ul>
-   </div>
+            </ul>
+            </div>
+          </div>
+        </nav>
+      </header><--!fim navegacao -->
 
+      <section id="blo">
+        <div class="container1">
+          <div class="row">
+            <div class="col-md-6 d-flex"><!-- Textos da seção -->
+              <div class="align-self-center">
+                <p>
+                " Olá,
+                  me chamo Guilherme de Matos Oliani, tenho 21 anos, estou na quinta fase
+                  do curso de Ciências da Computação na Universidade Positivo "
+                </p>
+              </div>
 
-    <div id="bloco">
-      <div class="escrito">
-        <h3>Olá, meu nome é Guilherme, tenho 20 anos e curso Ciência da computação
-          pela Positivo-ecoville.
-        </h3>
-      </div>
-   </div>
-
-
-   <div>
-     <h4>HABILIDADES</h4>
-      </div>
-<div>
-   <ol>
-    <li> JAVA</li>
-    <li>html/css</li>
-    <li>banco de dados</li>
-    <li>linguagem C</li>
-    </ol>
-   </div>
-</div>
-<h4>Quer me contratar?</h4>
-<section class="au">
-<form id="abrir" action="cadastro.html" method="post" style="display: none">
-<pre width="80">
- Nome completo:
- <input type="text"  name="nome">
- Email:
- <input type="text" name="email">
- Gostou do Currículo?:
- <input type="radio" name="sn" value="Gostou"> Gostou
- <input type="radio" name="sn" value="Não Gostou"> Não Gostou
-
- Se sim qual ou quais coisas que vc mais gostou?
- <input type="checkbox" name="itens" value=""> Habilidades
- <input type="checkbox" name="itens" value=""> Descrição
- <input type="checkbox" name="itens" value=""> Design do currículo
-
- Selecione de qual ESTADO voçê é:
- <select>
-   <option>SP</option>
-   <option>SC</option>
-   <option>RJ</option>
-   <option>RG</option>
-   <option>OUTRO</option>
-
- </select>
+             </div>
+             <div class="col-md-6 d-none d-md-block" >
+              <img src="img/ee.png" height="300">
+              <h2>Guilherme,<br>Estudante de CC.</h2>
 
 
- <label for="sugestao">deixe um comentário:</label>
- <textarea name="name" rows="8" cols="80"placeholder="digite aqui">
- </textarea>
- <button id="volt" type="submit" name="Cadastrar">Cadastrar</button>
- </pre>
-</form>
+
+            </div>
+
+            <div class="col-md-6 d-flex"><!-- Textos da seção -->
+              <div class="align-self-center">
+                <h3 id="hab"class="display-3">HABILIDADES</h3>
+                <ul style="list-style-type: none;">
+                  <li id="fd">Desenvolvimento Web</li>
+                  <hr>
+                  <p id="pe">  -HTML </p>
+                    <p id="pe">-CSS  </p>
+                      <p id="pe">   -BOOTSTRAP  </p>
+                        <p id="pe">   -JAVASCRIPT</p>
+                  <hr>
+                  <li id="fd">Linguagens</li>
+                  <hr>
+                  <p id="pe">  -JAVA </p>
+                    <p id="pe">-C  </p>
+                      <p id="pe">   -PYTHON(básico)  </p>
+                      <hr>
+                      <li id="fd">Conhecimento em Banco de Dados</li>
+                      <hr>
+                      <p id="pe">  -MySQL </p>
+                      <hr>
+                      <li id="sobre">SOBRE</li>
+                      <p id="final">" Gosto de aprender novas coisas passo-a-passo, sou
+                        resiliente e ao me deparar com alguma dificuldade persisto tentando achar
+                        novas soluções. Sou uma pessoa introvertida mas com ações e pensamentos coletivos.
+                        Meu filme favorito é Gênio Indomável por mostrar o valor de cada experiência. "
 
 
-<button  style="color:blue" type="button" onclick="document.getElementById('abrir').style.display='block'">
-mostrar formulario</button>
-<!---O uso desta função serve para deixar a visualização mais limpa para o usuário,
-assim somente se o usuário quisesse usar o formulário ele apertaria o botão 'mostrar formulário'
-!>
+
+                      </p>
 
 
-<!------------------------------------------------------!>
-  <footer>
-                    <p>Escrito por Guilherme de Matos Oliani</p>
-  </footer>
-    </main>
-  </body>
-</html>
+                </ul>
+              </div>
+
+
+
+            </div><!--/fim textos da seção -->
+
+
+
+
+
+          </div>
+            </div>
+
+
+
+
+      </section>
+
+
+
+     <footer class="text-white bg-dark fixed-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                REDES SOCIAIS:
+                <a href="https://www.instagram.com/oliani.guilherme/" class="btn btn-outline-light">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/guilherme-de-matos-oliani-b76688181/" class="btn btn-outline-light">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/olianiguilherme" class="btn btn-outline-light">
+                      <i class="fab fa-github-square"></i>
+                    </a>
+
+              </div>
+              <div class="col-md-4">
+                CONTATO:(48)991730504
+                </div>
+                <div class="col-md-4">
+                  EMAIL:
+                  guilhermeoliani5@gmail.com
+               </div>
+            </div>
+          </div>
+     </footer>
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
